@@ -10,7 +10,7 @@ OPT_DIR=$(cd $BIN_DIR/../opt; pwd)
 BUILD_DIR=$1
 CACHE_DIR=$2
 
-GRADLE_DIST="gradle-1.0-milestone-5"
+GRADLE_DIST="gradle-1.9"
 GRADLE_TASK="stage"
 
 curl --silent --location http://heroku-jvm-common.s3.amazonaws.com/jvm-buildpack-common.tar.gz | tar xz
